@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- TODO: comment after component added -->
+  <ul class="card-icons">
+    <li class="card-icon visa hidden">
+      <img class="card-image" src="./images/visa_curved_64px.png" alt="visa">
+    </li>
+    <li class="card-icon mastercard hidden">
+      <img class="card-image" src="./images/mastercard_curved.png" alt="mastercard">
+    </li>
+    <li class="card-icon mir hidden">
+      <img class="card-image" src="./images/mir.png" alt="mir">
+    </li>
+    <li class="card-icon amex hidden">
+      <img class="card-image" src="./images/american_express_curved.png" alt="american express">
+    </li>
+    <li class="card-icon discover hidden">
+      <img class="card-image" src="./images/discover_curved.png" alt="discover">
+    </li>
+    <li class="card-icon jcb hidden">
+      <img class="card-image" src="./images/jcb.png" alt="jcb">
+    </li>
+  </ul> 
+  <form class="card-form">
+    <div class="form-control">
+      <input class="card-input" data-id="card-input" type="text" placeholder="Введите номер карты">
+    </div>
+    <button class="card-submit">Click to Validate</button>
+  </form>
+  <div class="popup valid popup_hidden">Карта валидна</div>
+  <div class="popup red invalid popup_hidden">Карта не валидна</div>
+  <div class="popup red length popup_hidden">Номер карты должен содержать от 16 до 19 цифр</div>
+  <div class="popup red number popup_hidden">Используйте только цифры 0-9</div>
+</body>
+</html>

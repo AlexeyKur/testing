@@ -1,0 +1,74 @@
+.card-icons {
+	margin-top: 30px;
+	display: flex;
+	list-style: none;
+}
+
+.card-icon {
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	width: 50px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+.card-image {
+	width: 100%;
+	height: 100%;
+	object-fit: scale-down;
+}
+
+.hidden {
+	opacity: 0.3;
+}
+
+.card-form {
+	margin-left: 40px;
+	display: flex;
+	font-size: 16px;
+}
+
+.card-input {
+	padding-left: 10px;
+	flex: auto;
+	border: 1px solid #919191;
+  border-radius: 5px;
+	outline: none;
+	min-height: 30px;
+	min-width: 200px;
+}
+
+.card-submit {
+	margin-left: 10px;
+	flex: auto;
+	font-size: 16px;
+	height: 33px;
+	max-width: 150px;
+	border: 1px solid #919191;
+  border-radius: 5px;
+	background-color: #56bd44;
+	cursor: pointer;
+}
+
+.popup {
+	width: 370px;
+	height: 30px;
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin: 20px 0 0 40px;
+	padding: 15px 0;
+	text-align: center;
+	font-size: 18px;
+}
+
+.valid {
+	background-color: #56bd44;
+}
+
+.red {
+	background-color: #e00101;
+}
+
+.popup_hidden {
+	display: none;
+}
